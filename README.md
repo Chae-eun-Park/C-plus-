@@ -1,2 +1,2 @@
-# C-plus-
-4hours (1)
+# C-plus+
+4 hours first day
