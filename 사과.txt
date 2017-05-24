@@ -1,0 +1,28 @@
+문제#1
+
+학생에게 사과를 나눠주는 문제. 나머지를 다 더해라,
+
+#include <stdio.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+//배열사용 
+int main() {
+		int stu[5], app[5];
+		for(int i=0;i<5;i++){
+			printf("%d번째 학교 학생수 : ", i+1);
+			scanf("%d"&stu[i]);//요부분 오류뜹니다. 
+			}
+		for(int i=0,i<5;i++){
+			printf("%d번째 학교 사과수 : ", i+1);
+			scanf("%d",&app[i]);
+			}
+		int sum=0;
+		for(int i=0;i<5;i++)
+			sum=sum+(app[i]%stu[i]);
+			printf("답 : %d\n",sum);
+			
+		
+	return 0;
+}
+
+#10 숫자사각형
