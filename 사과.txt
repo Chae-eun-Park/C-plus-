@@ -1,28 +1,26 @@
-¹®Á¦#1
+ë¬¸ì œ
 
-ÇĞ»ı¿¡°Ô »ç°ú¸¦ ³ª´²ÁÖ´Â ¹®Á¦. ³ª¸ÓÁö¸¦ ´Ù ´õÇØ¶ó,
+í•™ìƒì—ê²Œ ì‚¬ê³¼ë¥¼ ë‚˜ëˆ ì£¼ëŠ” ë¬¸ì œ. ë‚˜ë¨¸ì§€ë¥¼ ë‹¤ ë”í•´ë¼,
 
 #include <stdio.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-//¹è¿­»ç¿ë 
+//ë°°ì—´ì‚¬ìš© 
 int main() {
 		int stu[5], app[5];
 		for(int i=0;i<5;i++){
-			printf("%d¹øÂ° ÇĞ±³ ÇĞ»ı¼ö : ", i+1);
-			scanf("%d"&stu[i]);//¿äºÎºĞ ¿À·ù¶å´Ï´Ù. 
+			printf("%dë²ˆì§¸ í•™êµ í•™ìƒìˆ˜ : ", i+1);
+			scanf("%d", &stu[i]); 
 			}
-		for(int i=0,i<5;i++){
-			printf("%d¹øÂ° ÇĞ±³ »ç°ú¼ö : ", i+1);
-			scanf("%d",&app[i]);
+		for(int f=0,f<5;f++){
+			printf("%dë²ˆì§¸ í•™êµ ì‚¬ê³¼ìˆ˜ : ", i+1);
+			scanf("%d",&app[f]);
 			}
 		int sum=0;
-		for(int i=0;i<5;i++)
-			sum=sum+(app[i]%stu[i]);
-			printf("´ä : %d\n",sum);
+		for(int a=0;a<5;a++)
+			sum = sum + (app[f] % stu[i]);
+			printf("ë‹µ : %d\n",sum);
 			
 		
 	return 0;
 }
-
-#10 ¼ıÀÚ»ç°¢Çü
