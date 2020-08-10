@@ -1,2 +1,2 @@
-#C/C++_BAEKJOON
+#C/C++
 
